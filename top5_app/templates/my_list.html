@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>My Favorite Landmarks</h2>
+    <ol>
+    {% for value in myTop5.values() %}
+        <li>{{ value }}</li>
+    {% endfor %}
+    </ol>
+{% endblock content %}

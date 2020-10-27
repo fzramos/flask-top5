@@ -1,0 +1,42 @@
+body {
+    background-image: url(../images/pyramid.jpg);
+    /* background-image: "{{ url_for('static', filename='images/pyramid.jpg') }}"; */
+    background-repeat: no-repeat;
+    background-size: auto;
+    color:rgb(207, 96, 56);
+}
+
+#intro {
+    margin-left: 15%;
+}
+
+h2 {
+    margin-left: 15%;
+}
+
+a>h1{
+    color:rgb(207, 96, 56);
+    text-decoration: none;
+}
+
+/* doesn't work for some reason */
+#move-down{
+    font-size: x-large;
+    position: relative;
+    bottom: 0px;
+}
+
+ul>li>a {
+    color:rgb(207, 96, 56);
+    font-size: large;
+    margin-top: 1em;
+}
+
+ul>li>a:hover {
+    color:rgb(56, 207, 56);
+
+}
+
+ol>li {
+    font-size: x-large;    
+}
